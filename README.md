@@ -1,4 +1,5 @@
 IDUKKI: https://code.earthengine.google.com/42257442a95b7b7d5b64c01bc8517664
+
 WAYANAD: https://code.earthengine.google.com/28523f855cff81a9d57bad3d67f4b364
 
 Landslide Damage Analysis – Idukki & Wayanad
