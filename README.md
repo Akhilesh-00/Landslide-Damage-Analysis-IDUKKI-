@@ -1,3 +1,6 @@
+IDUKKI: https://code.earthengine.google.com/42257442a95b7b7d5b64c01bc8517664
+WAYANAD: https://code.earthengine.google.com/28523f855cff81a9d57bad3d67f4b364
+
 Landslide Damage Analysis – Idukki & Wayanad
 
 Landslide Damage Analysis in Idukki and Wayanad – A remote sensing and GIS-based study using Google Earth Engine (GEE) with Sentinel-1 SAR, Sentinel-2, and DEM data. This project applies a Random Forest classifier to detect landslide-affected regions, quantify terrain changes, and assess land cover damage percentages across the highly landslide-prone districts of Idukki and Wayanad, Kerala.
