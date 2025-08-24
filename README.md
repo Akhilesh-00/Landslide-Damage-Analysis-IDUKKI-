@@ -1,61 +1,66 @@
-Landslide Damage Analysis – Idukki
+Landslide Damage Analysis – Idukki & Wayanad
 
-This project focuses on mapping and analyzing landslide-affected areas in Idukki, Kerala using Remote Sensing (RS) and GIS techniques. The analysis is carried out on Google Earth Engine (GEE), leveraging multi-source satellite data and machine learning classifiers to identify and quantify terrain changes caused by landslides.
+Landslide Damage Analysis in Idukki and Wayanad – A remote sensing and GIS-based study using Google Earth Engine (GEE) with Sentinel-1 SAR, Sentinel-2, and DEM data. This project applies a Random Forest classifier to detect landslide-affected regions, quantify terrain changes, and assess land cover damage percentages across the highly landslide-prone districts of Idukki and Wayanad, Kerala.
 
 🌍 Project Overview
 
-Landslides pose a major hazard in the Western Ghats, especially in districts like Idukki and Wayanad. This project uses a combination of digital elevation models (DEMs), Sentinel-1 SAR, and Sentinel-2 optical imagery to detect changes in land cover and slope stability, and to estimate the extent of landslide-affected areas.
+The Western Ghats region of Kerala, particularly Idukki and Wayanad, is highly vulnerable to landslides due to steep terrain, heavy monsoons, and unregulated land use. This project leverages satellite-based remote sensing and machine learning classification techniques to:
+
+Map landslide-affected areas.
+
+Detect pre- and post-event land cover changes.
+
+Quantify the extent of damage to forests, agricultural lands, and settlements.
 
 🔑 Objectives
 
-Identify landslide-affected vs. non-affected regions.
+Detect and map landslide-affected vs. non-affected zones.
 
-Quantify land cover changes (e.g., forest loss, barren land increase).
+Perform land cover change analysis (e.g., forest loss, barren land increase).
 
-Use Random Forest classification for improved accuracy.
+Provide damage percentage statistics for each district.
 
-Provide damage percentage statistics for different land cover types.
+Compare landslide patterns between Idukki and Wayanad.
 
 🛰️ Datasets Used
 
-Sentinel-1 SAR – Radar backscatter for surface deformation.
+Sentinel-1 SAR – Radar backscatter for surface deformation detection.
 
-Sentinel-2 – Optical imagery for vegetation and land cover.
+Sentinel-2 – Optical imagery for vegetation and land cover monitoring.
 
-DEM (SRTM / ALOS) – Slope and elevation data for terrain analysis.
+DEM (SRTM / ALOS) – Elevation and slope analysis.
 
-Study Area – Idukki district boundary shapefile/ROI.
+ROI Boundaries – District shapefiles for Idukki and Wayanad.
 
 ⚙️ Methodology
 
-Data Collection – Load Sentinel-1, Sentinel-2, and DEM data in GEE.
+Data Collection – Sentinel-1, Sentinel-2, and DEM loaded in GEE.
 
-Preprocessing – Apply cloud masking, filtering, and terrain correction.
+Preprocessing – Cloud masking, terrain correction, and filtering.
 
-Feature Extraction – Generate indices (NDVI, slope, backscatter features).
+Feature Extraction – Indices such as NDVI, slope, and SAR backscatter.
 
-Classification – Apply Random Forest classifier to distinguish affected vs. unaffected areas.
+Classification – Random Forest model to separate affected/unaffected areas.
 
-Change Detection – Compare pre- and post-event land cover.
+Change Detection – Comparative analysis of pre- and post-event conditions.
 
-Damage Assessment – Compute % changes in forest, barren, built-up, etc.
+Damage Assessment – Computation of land cover change percentages.
 
 📊 Results
 
-Landslide-affected zones mapped across Idukki.
+Generated landslide susceptibility maps for Idukki & Wayanad.
 
-Forest cover reduction and increase in barren land identified.
+Identified forest cover reduction and increase in barren land in affected regions.
 
-Damage assessment reports in percentage values per land cover type.
+Produced damage percentage reports for each land cover type in both districts.
 
-Visual outputs: classified maps, before/after comparisons, charts.
+Created visual outputs: maps, before/after comparisons, and charts.
 
 🖥️ Tools & Technologies
 
 Google Earth Engine (GEE)
 
-Random Forest Machine Learning
+Random Forest Classifier
 
-QGIS (optional for visualization)
+QGIS (for visualization)
 
-Python (for post-analysis, if used)
